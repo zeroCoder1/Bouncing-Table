@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39CBACCA17F932BD0043D7DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CBACC917F932BD0043D7DA /* Foundation.framework */; };
+		39CBACCC17F932BD0043D7DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CBACCB17F932BD0043D7DA /* CoreGraphics.framework */; };
+		39CBACCE17F932BD0043D7DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CBACCD17F932BD0043D7DA /* UIKit.framework */; };
+		39CBACD417F932BD0043D7DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39CBACD217F932BD0043D7DA /* InfoPlist.strings */; };
+		39CBACD617F932BD0043D7DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CBACD517F932BD0043D7DA /* main.m */; };
+		39CBACDA17F932BD0043D7DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CBACD917F932BD0043D7DA /* AppDelegate.m */; };
+		39CBACE017F932BD0043D7DA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CBACDF17F932BD0043D7DA /* RootViewController.m */; };
+		39CBACE217F932BD0043D7DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CBACE117F932BD0043D7DA /* Images.xcassets */; };
+		39CBACE917F932BD0043D7DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CBACE817F932BD0043D7DA /* XCTest.framework */; };
+		39CBACEA17F932BD0043D7DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CBACC917F932BD0043D7DA /* Foundation.framework */; };
+		39CBACEB17F932BD0043D7DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CBACCD17F932BD0043D7DA /* UIKit.framework */; };
+		39CBACF317F932BD0043D7DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39CBACF117F932BD0043D7DA /* InfoPlist.strings */; };
+		39CBACF517F932BD0043D7DA /* BouncyTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CBACF417F932BD0043D7DA /* BouncyTableTests.m */; };
+		39CBACFF17F93D5D0043D7DA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CBACFE17F93D5D0043D7DA /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39CBACEC17F932BD0043D7DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39CBACBE17F932BD0043D7DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39CBACC517F932BD0043D7DA;
+			remoteInfo = BouncyTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39CBACC617F932BD0043D7DA /* BouncyTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncyTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CBACC917F932BD0043D7DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39CBACCB17F932BD0043D7DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39CBACCD17F932BD0043D7DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39CBACD117F932BD0043D7DA /* BouncyTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BouncyTable-Info.plist"; sourceTree = "<group>"; };
+		39CBACD317F932BD0043D7DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39CBACD517F932BD0043D7DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39CBACD717F932BD0043D7DA /* BouncyTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BouncyTable-Prefix.pch"; sourceTree = "<group>"; };
+		39CBACD817F932BD0043D7DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39CBACD917F932BD0043D7DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39CBACDE17F932BD0043D7DA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		39CBACDF17F932BD0043D7DA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		39CBACE117F932BD0043D7DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39CBACE717F932BD0043D7DA /* BouncyTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncyTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CBACE817F932BD0043D7DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39CBACF017F932BD0043D7DA /* BouncyTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BouncyTableTests-Info.plist"; sourceTree = "<group>"; };
+		39CBACF217F932BD0043D7DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39CBACF417F932BD0043D7DA /* BouncyTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncyTableTests.m; sourceTree = "<group>"; };
+		39CBACFE17F93D5D0043D7DA /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39CBACC317F932BD0043D7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CBACCC17F932BD0043D7DA /* CoreGraphics.framework in Frameworks */,
+				39CBACCE17F932BD0043D7DA /* UIKit.framework in Frameworks */,
+				39CBACCA17F932BD0043D7DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CBACE417F932BD0043D7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CBACE917F932BD0043D7DA /* XCTest.framework in Frameworks */,
+				39CBACEB17F932BD0043D7DA /* UIKit.framework in Frameworks */,
+				39CBACEA17F932BD0043D7DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39CBACBD17F932BD0043D7DA = {
+			isa = PBXGroup;
+			children = (
+				39CBACCF17F932BD0043D7DA /* BouncyTable */,
+				39CBACEE17F932BD0043D7DA /* BouncyTableTests */,
+				39CBACC817F932BD0043D7DA /* Frameworks */,
+				39CBACC717F932BD0043D7DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39CBACC717F932BD0043D7DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39CBACC617F932BD0043D7DA /* BouncyTable.app */,
+				39CBACE717F932BD0043D7DA /* BouncyTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39CBACC817F932BD0043D7DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39CBACC917F932BD0043D7DA /* Foundation.framework */,
+				39CBACCB17F932BD0043D7DA /* CoreGraphics.framework */,
+				39CBACCD17F932BD0043D7DA /* UIKit.framework */,
+				39CBACE817F932BD0043D7DA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39CBACCF17F932BD0043D7DA /* BouncyTable */ = {
+			isa = PBXGroup;
+			children = (
+				39CBACD817F932BD0043D7DA /* AppDelegate.h */,
+				39CBACD917F932BD0043D7DA /* AppDelegate.m */,
+				39CBACDE17F932BD0043D7DA /* RootViewController.h */,
+				39CBACDF17F932BD0043D7DA /* RootViewController.m */,
+				39CBACFE17F93D5D0043D7DA /* RootViewController.xib */,
+				39CBACE117F932BD0043D7DA /* Images.xcassets */,
+				39CBACD017F932BD0043D7DA /* Supporting Files */,
+			);
+			path = BouncyTable;
+			sourceTree = "<group>";
+		};
+		39CBACD017F932BD0043D7DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39CBACD117F932BD0043D7DA /* BouncyTable-Info.plist */,
+				39CBACD217F932BD0043D7DA /* InfoPlist.strings */,
+				39CBACD517F932BD0043D7DA /* main.m */,
+				39CBACD717F932BD0043D7DA /* BouncyTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39CBACEE17F932BD0043D7DA /* BouncyTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				39CBACF417F932BD0043D7DA /* BouncyTableTests.m */,
+				39CBACEF17F932BD0043D7DA /* Supporting Files */,
+			);
+			path = BouncyTableTests;
+			sourceTree = "<group>";
+		};
+		39CBACEF17F932BD0043D7DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39CBACF017F932BD0043D7DA /* BouncyTableTests-Info.plist */,
+				39CBACF117F932BD0043D7DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39CBACC517F932BD0043D7DA /* BouncyTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39CBACF817F932BD0043D7DA /* Build configuration list for PBXNativeTarget "BouncyTable" */;
+			buildPhases = (
+				39CBACC217F932BD0043D7DA /* Sources */,
+				39CBACC317F932BD0043D7DA /* Frameworks */,
+				39CBACC417F932BD0043D7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BouncyTable;
+			productName = BouncyTable;
+			productReference = 39CBACC617F932BD0043D7DA /* BouncyTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39CBACE617F932BD0043D7DA /* BouncyTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39CBACFB17F932BD0043D7DA /* Build configuration list for PBXNativeTarget "BouncyTableTests" */;
+			buildPhases = (
+				39CBACE317F932BD0043D7DA /* Sources */,
+				39CBACE417F932BD0043D7DA /* Frameworks */,
+				39CBACE517F932BD0043D7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39CBACED17F932BD0043D7DA /* PBXTargetDependency */,
+			);
+			name = BouncyTableTests;
+			productName = BouncyTableTests;
+			productReference = 39CBACE717F932BD0043D7DA /* BouncyTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39CBACBE17F932BD0043D7DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ninestars Information Technology";
+				TargetAttributes = {
+					39CBACE617F932BD0043D7DA = {
+						TestTargetID = 39CBACC517F932BD0043D7DA;
+					};
+				};
+			};
+			buildConfigurationList = 39CBACC117F932BD0043D7DA /* Build configuration list for PBXProject "BouncyTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39CBACBD17F932BD0043D7DA;
+			productRefGroup = 39CBACC717F932BD0043D7DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39CBACC517F932BD0043D7DA /* BouncyTable */,
+				39CBACE617F932BD0043D7DA /* BouncyTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39CBACC417F932BD0043D7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CBACE217F932BD0043D7DA /* Images.xcassets in Resources */,
+				39CBACFF17F93D5D0043D7DA /* RootViewController.xib in Resources */,
+				39CBACD417F932BD0043D7DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CBACE517F932BD0043D7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CBACF317F932BD0043D7DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39CBACC217F932BD0043D7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CBACE017F932BD0043D7DA /* RootViewController.m in Sources */,
+				39CBACDA17F932BD0043D7DA /* AppDelegate.m in Sources */,
+				39CBACD617F932BD0043D7DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CBACE317F932BD0043D7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CBACF517F932BD0043D7DA /* BouncyTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39CBACED17F932BD0043D7DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39CBACC517F932BD0043D7DA /* BouncyTable */;
+			targetProxy = 39CBACEC17F932BD0043D7DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39CBACD217F932BD0043D7DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39CBACD317F932BD0043D7DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39CBACF117F932BD0043D7DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39CBACF217F932BD0043D7DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39CBACF617F932BD0043D7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		39CBACF717F932BD0043D7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39CBACF917F932BD0043D7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BouncyTable/BouncyTable-Prefix.pch";
+				INFOPLIST_FILE = "BouncyTable/BouncyTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39CBACFA17F932BD0043D7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BouncyTable/BouncyTable-Prefix.pch";
+				INFOPLIST_FILE = "BouncyTable/BouncyTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		39CBACFC17F932BD0043D7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BouncyTable.app/BouncyTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BouncyTable/BouncyTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BouncyTableTests/BouncyTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		39CBACFD17F932BD0043D7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BouncyTable.app/BouncyTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BouncyTable/BouncyTable-Prefix.pch";
+				INFOPLIST_FILE = "BouncyTableTests/BouncyTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39CBACC117F932BD0043D7DA /* Build configuration list for PBXProject "BouncyTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CBACF617F932BD0043D7DA /* Debug */,
+				39CBACF717F932BD0043D7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39CBACF817F932BD0043D7DA /* Build configuration list for PBXNativeTarget "BouncyTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CBACF917F932BD0043D7DA /* Debug */,
+				39CBACFA17F932BD0043D7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39CBACFB17F932BD0043D7DA /* Build configuration list for PBXNativeTarget "BouncyTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CBACFC17F932BD0043D7DA /* Debug */,
+				39CBACFD17F932BD0043D7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39CBACBE17F932BD0043D7DA /* Project object */;
+}
