@@ -2,7 +2,7 @@ Bouncing-Table
 ==============
 
 
-A UITableView with some bouncing cells.
+A UITableViewCells with some bouncing animation (spring).
 
 
 A simple animation to bounce the UITableView Cells. Looks nice and easy to use.
