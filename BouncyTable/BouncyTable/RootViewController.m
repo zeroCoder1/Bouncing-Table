@@ -69,7 +69,7 @@
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
     if (_direction==1) {
         
-        cell.frame = CGRectMake(0,cell.frame.origin.y+55 , 1024, 50);
+        cell.frame = CGRectMake(cell.frame.origin.x,cell.frame.origin.y+55 , cell.frame.size.width, cell.frame.size.height);
         
         
         [UIView animateWithDuration:2
@@ -79,7 +79,7 @@
                             options:UIViewAnimationOptionAllowUserInteraction
                          animations:^{
                              
-                             cell.frame = CGRectMake(0,cell.frame.origin.y-55 , 1024, 50);
+                             cell.frame = CGRectMake(cell.frame.origin.x,cell.frame.origin.y-55 , cell.frame.size.width, cell.frame.size.height);
 
                              
                          }
@@ -91,7 +91,7 @@
     }
     else{
         
-        cell.frame = CGRectMake(0,cell.frame.origin.y-55 , 1024, 50);
+        cell.frame = CGRectMake(cell.frame.origin.x,cell.frame.origin.y-55 , cell.frame.size.width, cell.frame.size.height);
         
         
         [UIView animateWithDuration:2
@@ -100,7 +100,7 @@
               initialSpringVelocity:25.5
                             options:UIViewAnimationOptionAllowUserInteraction
                          animations:^{
-                             cell.frame = CGRectMake(0,cell.frame.origin.y+55, 1024, 50);
+                             cell.frame = CGRectMake(cell.frame.origin.x,cell.frame.origin.y+55, cell.frame.size.width, cell.frame.size.height);
                              cell.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 
                          }
