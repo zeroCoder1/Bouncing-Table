@@ -60,13 +60,6 @@
     
     // Configure the cell...
     
-    
-//    double numSections = [self numberOfSectionsInTableView:tableView];
-//    double numRows = [self tableView:tableView numberOfRowsInSection:indexPath.section];
-//    [cell setBackgroundColor:[UIColor colorWithRed:0.8/numRows*((double)indexPath.row)+0.2 green:0.8/numSections*((double)indexPath.section)+0.2 blue:((double)(random()%1000))/1000.0 alpha:1]];
-
-    
-
     cell.backgroundColor = [self.aArray objectAtIndex:indexPath.row];
     
     return cell;
